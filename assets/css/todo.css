@@ -1,0 +1,83 @@
+body {
+  background: #EECDA3;
+  font-family: 'Futura', sans-serif;
+  background: linear-gradient(to right, #e67e22, #f1c40f);
+}
+
+h1 {
+  color: #ffffff;
+  background-color: #3498db;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 10px 20px;
+}
+
+.fa-plus {
+  float: right;
+}
+
+input {
+  font-size: 18px;
+  background-color: #f7f7f7;
+  width: 100%;
+  color: #347eb4;
+  box-sizing: border-box;
+  padding: 13px 13px 13px 20px;
+  border: 3px solid rgba(0, 0, 0, 0);
+  margin: 0;
+}
+
+input:focus {
+  background-color: #ffffff;
+  outline: none;
+  border: 3px solid #347eb4;
+}
+
+#container {
+  max-width: 360px;
+  margin: 100px auto;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  background-color: #fff;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+  font-size: 18px;
+}
+
+li:nth-child(2n) {
+  background-color: #f7f7f7;
+}
+
+span {
+  background: #e74c3c;
+  height: 40px;
+  margin-right: 20px;
+  color: #FFFFFF;
+  display: inline-block;
+  width: 0;
+  text-align: center;
+  transition: 0.2s linear;
+  opacity: 0;
+}
+
+li:hover span{
+  width: 40px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.deleted {
+  text-decoration: line-through;
+  color: #969696;
+}
